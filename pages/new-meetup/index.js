@@ -7,7 +7,7 @@ const NewMeetupPage = () => {
   async function addMeetupHandler(enteredMeetupData) {
     console.log(enteredMeetupData);
 
-    console.log(object);
+    // console.log(object);
     const response = await fetch("/api/new-meetup", {
       method: "POST",
       body: JSON.stringify(enteredMeetupData),

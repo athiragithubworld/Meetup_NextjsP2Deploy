@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Fragment } from "react";
 import MeetupList from "../components/meetups/MeetupList";
-import mongodb, { MongoClient } from "mongodb";
+import { MongoClient } from "mongodb";
 
 // const Dummy_MeetUps = [
 //   {

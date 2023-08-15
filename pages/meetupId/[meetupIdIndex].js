@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import Head from "next/head";
 import MeetupDetails from "../../components/meetups/MeetupDetails";
 import { useRouter } from "next/router";
-import mongodb, { MongoClient, ObjectId } from "mongodb";
+import { MongoClient, ObjectId } from "mongodb";
 
 // const Dummy_MeetUps = [
 //   {
